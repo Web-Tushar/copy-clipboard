@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>case convert</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,500;1,600;1,800&display=swap" rel="stylesheet">
+     <script src="https://cdn.tailwindcss.com"></script>
+     <script src="./tailwind.config.js"></script>
+</head>
+<body class="bg-[#787878]">
+     <div class=" mt-10  w-[1200px] rounded-[5px] overflow-hidden mx-auto	bg-white pb-7">
+          <div class="">
+               <div class="bg-[#193657] flex justify-between items-center  px-[20px]">
+                    <h3 class=" text-4xl text-white font-poppins font-bold capitalize">easy tools</h3>
+                    <h3 class="pl-[10px] py-[15px] bg-[#554a92] text-4xl text-white font-poppins font-bold capitalize">CASE CONVERTER</h3>
+
+               </div>
+
+               <div class="bg-[#554a92] text-left pl-[10px] relative">
+                    <h3 class="text-[20px] text-[#b789d5] capitalize ">CONVERT CASE/UPPERCASE</h3>
+                    <h1 class=" text-white text-[48px] font-bold">UPPERCASE</h1>
+                    <div class="absolute top-[2px] right-[115px] w-[200px] h[200px]" >
+                         <img src="./images/case-converter-lowercase-uppercase-text.gif" alt="">
+                    </div>
+               </div>
+
+               <div class="mt-10 flex justify-center gap-[10px]">
+
+                    <textarea class="inputbox  w-[450px] h-[300px] border-2 border-[#ccc8de] rounded-[6px] py-3 outline-none overflow-auto" placeholder="Type or paste your content here" ></textarea>
+
+                    <div class=" mt-4 flex flex-col gap-[10px]">
+                         <h3 class="text-[#7b6092] font-bold">CHANGE MY TEXT TO...</h3>
+                         <button class="upperbtn bg-[#544b90] text-white font-bold px-[10px] py-[4px] rounded-[3px]">UPPERCASE</button>
+                         <button class="lowerbtn bg-[#6b61ad] text-white font-bold px-[10px] py-[4px] rounded-[3px]">lowercase</button>
+                         <button class="repeatbtn bg-[#8a83be] text-white font-bold px-[10px] py-[4px] rounded-[3px]">Repeat 20</button>
+                         <button class="length bg-[#aaa4d0] text-white font-bold px-[10px] py-[4px] rounded-[3px]">Length</button>
+                         <input class="reset bg-[#aaa4d0] text-white font-bold px-[10px] py-[4px] rounded-[3px]" type="reset" value="Reset">
+                         
+                         
+                         <button class="copy bg-[#aaa4d0]  text-white font-bold px-[10px] py-[4px] rounded-[3px]">Copy</button> 
+			          <span class="tooltip hidden">Copied</span>
+
+                    </div>
+
+                    <!-- <div class="result  w-[450px]  h-[300px] border-2 border-[#ccc8de] rounded-[6px] overflow-auto py-3"></div> -->
+               </div>
+          </div>
+
+     </div>
+
+     <script src="./script.js"></script>
+</body>
+</html>
